@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an automated tool for analyzing cases related to the protection of fundamental rights. It provides a structured framework for assessing whether government actions infringe upon fundamental rights. The analysis is divided into three main stages:
+This project is Assignment 1 for **Legal AI: Design and Development (LAWS90286)** at Melbourne Law School. It is an automated tool for analyzing cases related to the protection of fundamental rights. It provides a structured framework for assessing whether government actions infringe upon fundamental rights. The analysis is divided into three main stages:
 
 1. **Scope of Protection**: Determining whether the action falls within the scope of fundamental rights protection.
 2. **Intervention**: Determining whether the action constitutes an interference with the identified fundamental rights.
