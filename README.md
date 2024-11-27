@@ -14,7 +14,6 @@ This project is an automated tool for analyzing cases related to the protection 
 
 The program provides a step-by-step process to ensure comprehensive analysis, with opportunities for user input at critical decision points.
 
----
 
 ## How to Use
 
@@ -34,12 +33,10 @@ The program provides a step-by-step process to ensure comprehensive analysis, wi
      - **Necessity**: Exploring less restrictive alternatives.
      - **Proportionality**: Balancing harm and benefits.
 
----
 
 ## Demo  
 To try the demo, please visit: **[Demo Link](https://human-rights-demo-2s3qsvwtxj7smci6vzg4kr.streamlit.app/)**.  
 
----
 
 ## Test Cases
 
@@ -65,7 +62,6 @@ A city council banned street performances in a popular tourist district, citing 
 - *Difficulty analyzing scenarios with overlapping rights.*
 - *Inability to address the lack of objective data or ambiguous justifications from authorities.*
 
----
 
 ## Acknowledgements
 Special thanks to **Jack Stoneman** for his guidance and support in the development of this project.
