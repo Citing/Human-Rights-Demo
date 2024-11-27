@@ -1,0 +1,76 @@
+prompts:
+  step_1: |
+    Based on the scenario described below, determine whether it falls within the scope of protection for the following fundamental rights:
+    
+    - Personal liberty
+    - Freedom of residence
+    - Freedom of religion
+    - Freedom of speech
+    
+    Refer to the following articles from the Universal Declaration of Human Rights (UDHR) for guidance:
+    
+    1. No one shall be subjected to arbitrary arrest, detention or exile.
+    2. No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.
+    3. Everyone has the right to freedom of movement and residence within the borders of each State.
+    4. Everyone has the right to leave any country, including his own, and to return to his country.
+    5. Everyone has the right to own property alone as well as in association with others.
+    6. No one shall be arbitrarily deprived of his property.
+    
+    Scenario description: {scene}
+    
+    Please provide a detailed analysis and state the reasons. If it is not within the scope of protection, make it clear.
+  step_2: |
+    Based on the selected fundamental rights from Step 1, determine whether the actions or events described in the scenario constitute an intervention in those rights. For each selected right, address the following:
+
+    1. Is there an action, omission, or event that directly affects the exercise of this right?
+    2. If yes, explain why it constitutes an intervention.
+    3. If no, explain why the right is not affected.
+
+    **Selected Rights:**
+    {selected_rights}
+
+    **Scenario Description:**
+    {scene}
+
+    Please provide a detailed analysis for each selected right in the following format:
+
+    - [Right Name]: [Does it constitute an intervention? If yes, why? If no, why not?]
+  step_3_purpose: |
+    Analyze the **purpose** of the interference in the selected right. Consider the following:
+    1. Is the interference pursuing a legitimate aim (e.g., public safety, public health, national security, etc.)?
+    2. Clearly state the purpose of the interference and whether it is legitimate.
+
+    **Right:** {right}
+    **Scenario Description:** {scene}
+  step_3_suitability: |
+    Analyze the **suitability** of the interference for achieving its stated purpose. Consider the following:
+    1. Does the interference contribute effectively to achieving the stated purpose?
+    2. Explain why the interference is or is not suitable.
+
+    **Right:** {right}
+    **Scenario Description:** {scene}
+  step_3_necessity: |
+    Analyze the **necessity** of the interference. Consider the following:
+    1. Are there less restrictive means available to achieve the same purpose?
+    2. Explain why the interference is or is not necessary.
+
+    **Right:** {right}
+    **Scenario Description:** {scene}
+  step_3_proportionality: |
+    Analyze the **proportionality** of the interference. Consider the following:
+    1. Does the interference balance the harm caused to the right with the benefits gained for the legitimate aim?
+    2. Explain why the interference is or is not proportional.
+
+    **Right:** {right}
+    **Scenario Description:** {scene}
+  step_3_conclusion: |
+    Based on the proportionality analysis for the right to {right}, provide a conclusion that summarizes the findings. Include the following:
+    - The legitimacy of the purpose.
+    - Whether the interference is suitable.
+    - Whether the interference is necessary.
+    - Whether the interference is proportional.
+    Use the following information to guide your conclusion:
+    - Purpose: {purpose}
+    - Suitability: {suitability}
+    - Necessity: {necessity}
+    - Proportionality: {proportionality}
